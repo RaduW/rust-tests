@@ -19,4 +19,4 @@ trait SomeTrait {
     fn b(&self, v1: u32);
 }
 
-fn the_func(x: &SomeTrait) {}
+fn the_func(x: &dyn SomeTrait) {}
