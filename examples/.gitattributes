@@ -1,1 +1,2 @@
 electron_simple.body.txt text eol=crlf
+*.rs ident
