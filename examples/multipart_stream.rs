@@ -28,9 +28,10 @@ fn detect_embeded_minidump_content(data: &str) -> Option<&str> {
 
 fn file_content() -> String {
     let content = include_str!("electron_simple.body.txt");
-    let cleaned = content.replace('\n', "\r\n");
+    //let cleaned = content.replace('\n', "\r\n");
     //println!("{}", cleaned);
-    cleaned
+    //cleaned
+    content.to_string()
 }
 
 fn clean_end_of_line(val: &str) -> Cow<str> {
