@@ -17,3 +17,10 @@ fn get_message() -> String {
 
     msg.into()
 }
+//
+//fn flatten<T>(x: Option<Option<T>>) -> Option<T> {
+//    match x {
+//        Some(Some(x)) => flatten(Some(x)),
+//        _ => None,
+//    }
+//}
