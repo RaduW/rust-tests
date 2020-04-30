@@ -1,3 +1,4 @@
+#![allow(warnings)]
 fn main() {
     let msg = get_message();
 

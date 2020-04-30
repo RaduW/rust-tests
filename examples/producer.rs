@@ -1,3 +1,5 @@
+#![allow(warnings)]
+/*
 use chrono::{Timelike, Utc};
 use futures;
 use futures::future::Future;
@@ -49,3 +51,6 @@ fn produce(options: &[(&str, &str)]) {
         }
     }
 }
+*/
+
+fn main() {}

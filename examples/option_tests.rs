@@ -1,3 +1,4 @@
+#![allow(warnings)]
 /// This contains tests for the standard `std::Option<T>` type
 
 fn main() {

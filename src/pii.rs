@@ -1,4 +1,5 @@
-use hmac::{Hmac, Mac};
+/*
+hmacuse hmac::{Hmac, Mac};
 use regex::Regex;
 
 #[rustfmt::skip]
@@ -28,7 +29,7 @@ fn int_to_string() {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::*;*//**//*
 
     #[test]
     fn test_ip_macro() {
@@ -48,7 +49,7 @@ mod tests {
         let imei: Regex = Regex::new(
             r#"(?x)
             \b((?:[a-z0-9]+:)?//[a-zA-Z0-9%_.-]+:)([a-zA-Z0-9%_.-]+)@
-            
+
         "#,
         )
         .unwrap();
@@ -56,3 +57,4 @@ mod tests {
         assert!(imei.is_match("abc://a09_:abcd@"))
     }
 }
+*/

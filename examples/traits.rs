@@ -1,5 +1,4 @@
-fn main() {}
-
+#![allow(warnings)]
 pub trait AirConditioner {
     fn make_hotter(&mut self, by: i16);
     fn make_cooler(&mut self, by: i16);
@@ -20,3 +19,5 @@ trait SomeTrait {
 }
 
 fn the_func(x: &dyn SomeTrait) {}
+
+fn main() {}

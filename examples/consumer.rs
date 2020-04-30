@@ -1,3 +1,5 @@
+#![allow(warnings)]
+/*
 use futures::Stream;
 use rdkafka::consumer::{CommitMode, Consumer, DefaultConsumerContext, StreamConsumer};
 use rdkafka::message::Message;
@@ -46,3 +48,6 @@ fn consume(options: &[(&str, &str)]) {
         }
     }
 }
+*/
+
+fn main() {}

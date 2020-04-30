@@ -1,3 +1,5 @@
+#![allow(warnings)]
+/*
 use regex::Regex;
 
 use serde_json::{self, Value};
@@ -64,7 +66,7 @@ pub fn merge_vals(a: &mut Value, b: Value) {
         //fill in missing left values
         (a @ &mut Value::Null, b) => *a = b,
         //do not override existing values that are not maps
-        (a, b) => {} //*a = b,
+        (a, b) => {} ,
     }
 }
 
@@ -193,3 +195,6 @@ mod tests {
         "###);
     }
 }
+*/
+
+fn main() {}

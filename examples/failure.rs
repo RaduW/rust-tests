@@ -1,3 +1,4 @@
+#![allow(warnings)]
 use failure::{self, Error, Fail};
 
 #[derive(Fail, Debug)]
@@ -7,6 +8,10 @@ pub struct Type1(i32);
 #[derive(Fail, Debug)]
 #[fail(display = "Type2 here")]
 pub struct Type2(i64);
+
+fn main() {
+    println!("Testing failure.");
+}
 
 fn f1(val: i32) -> Result<i32, Type1> {
     if val > 10 {
@@ -77,10 +82,6 @@ fn fx(val: i32) -> Result<(), X> {
         fx2()?
     }
     Ok(())
-}
-
-fn main() {
-    println!("Testing failure.");
 }
 
 #[cfg(test)]

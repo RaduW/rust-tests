@@ -1,3 +1,4 @@
+#![allow(warnings)]
 use bytes::{Bytes, BytesMut};
 use core::fmt;
 use rmp_serde::{self, encode::Serializer as MpSerializer};

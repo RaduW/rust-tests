@@ -1,3 +1,5 @@
+#![allow(warnings)]
+/*
 /// Tests building a multipart stream from a string
 use bytes::Bytes;
 
@@ -13,9 +15,6 @@ use futures::{
     Future, Stream,
 };
 
-fn main() {
-    println!("Hello from multipart stream");
-}
 
 fn detect_embeded_minidump_content(data: &str) -> Option<&str> {
     let data = data.trim_start_matches("\r\n");
@@ -130,4 +129,9 @@ mod tests {
         }
         println!("At the end");
     }
+}
+*/
+
+fn main() {
+    println!("Hello from multipart stream");
 }
